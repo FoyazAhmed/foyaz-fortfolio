@@ -40,3 +40,17 @@ section{
     background-repeat: no-repeat;
 
 }
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    margin-top:100px;
+}
+.download-resu{
+    text-decoration: none;
+    padding:10px 40px;
+    background-image: linear-gradient(tomato,orange);
+    margin-top :10px;
+    display: inline-block;
+    border-radius: 5px;
+}
