@@ -1,12 +1,11 @@
 h1{
     font-size: 50px;
-
 }
 body{
     font-family: 'Poppins', sans-serif;
     margin:0;
 }
-section{
+.flexiable-sec{
     display: flex;
 }
 .half-width{
@@ -53,4 +52,34 @@ section{
     margin-top :10px;
     display: inline-block;
     border-radius: 5px;
+}
+.experence {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 229px;
+}
+.ex {
+    margin-left: 170px;
+    padding-top: 40px;
+}
+.blue-border{
+     box-shadow: 10px 10px 40px rgb(177, 176, 176);
+     border-left: 10px solid blue;
+     margin-left:60px;
+     margin-top:40px;
+     max-width: 40%;
+     padding: 20px 40px;
+       margin-left:5%
+
+}
+.orange-border{
+     box-shadow: 10px 10px 30px rgb(192, 189, 189);
+     border-left: 10px solid orangered;
+     margin-left:60px;
+     margin-top:40px;
+     max-width: 40%;
+     padding: 20px 40px;
+     margin-right:5%
+
 }
