@@ -65,21 +65,30 @@ body{
 }
 .blue-border{
      box-shadow: 10px 10px 40px rgb(177, 176, 176);
-     border-left: 10px solid blue;
      margin-left:60px;
      margin-top:40px;
-     max-width: 40%;
-     padding: 20px 40px;
-       margin-left:5%
+     max-width: 35%;
+     padding: 30px 40px;
+     margin-left:5%;
+    border-left:7px solid;
+    border-image:linear-gradient(blue, cyan);
+    border-image-slice: 1;
 
 }
 .orange-border{
      box-shadow: 10px 10px 30px rgb(192, 189, 189);
-     border-left: 10px solid orangered;
      margin-left:60px;
      margin-top:40px;
-     max-width: 40%;
-     padding: 20px 40px;
-     margin-right:5%
+     max-width: 35%;
+     padding: 30px 40px;
+     margin-right:5%;
+     border-left:7px solid;
+    border-image: linear-gradient(red,orange);
+    border-image-slice:1;
 
+}
+
+footer p{
+    text-align: center;
+    margin-top:100px;
 }
